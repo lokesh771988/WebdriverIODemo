@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[type=\"checkbox\"]:nth-child(2)\"}\n  (Session info: chrome=113.0.5672.127)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x006C8893+48451]\n\t(No symbol) [0x0065B8A1]\n\t(No symbol) [0x00565058]\n\t(No symbol) [0x00590467]\n\t(No symbol) [0x0059069B]\n\t(No symbol) [0x005BDD92]\n\t(No symbol) [0x005AA304]\n\t(No symbol) [0x005BC482]\n\t(No symbol) [0x005AA0B6]\n\t(No symbol) [0x00587E08]\n\t(No symbol) [0x00588F2D]\n\tGetHandleVerifier [0x00928E3A+2540266]\n\tGetHandleVerifier [0x00968959+2801161]\n\tGetHandleVerifier [0x0096295C+2776588]\n\tGetHandleVerifier [0x00752280+612144]\n\t(No symbol) [0x00664F6C]\n\t(No symbol) [0x006611D8]\n\t(No symbol) [0x006612BB]\n\t(No symbol) [0x00654857]\n\tBaseThreadInitThunk [0x755200C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x776C7B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x776C7B1E+238]\n"
+}

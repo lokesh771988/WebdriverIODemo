@@ -1,0 +1,35 @@
+describe("actiomns", ()=>{
+    it("sample1", async function(){
+        browser.url("https://the-internet.herokuapp.com/javascript_alerts")
+        browser.maximizeWindow()
+        await browser.pause(1000)
+        await $('//button[text()="Click for JS Alert"]').click()
+        console.log(await browser.getAlertText())
+        await browser.pause(1000)
+        await browser.acceptAlert()
+        
+        const message = await $('#result')
+        console.log(await message.getText())
+        expect(await message.getText()).toHaveText("You successfully clicked an alert")
+        await browser.pause(1000)
+        await $('//button[text()="Click for JS Confirm"]').click()
+        await browser.pause(1000)
+        await browser.dismissAlert()
+        
+        const message1 = await $('#result')
+        console.log(await message1.getText())
+        expect(await message1.getText()).toHaveText("You clicked: Cancel")
+
+        await browser.pause(1000)
+        await $('//button[text()="Click for JS Prompt"]').click()
+        await browser.pause(1000)
+        await browser.sendAlertText("lokesh")
+        await browser.pause(1000)
+        await browser.acceptAlert()
+        
+        const message2 = await $('#result')
+        console.log(await message2.getText())
+        expect(await message2.getText()).toHaveText("You entered: lokesh")
+        await browser.pause(2000)
+    })
+})

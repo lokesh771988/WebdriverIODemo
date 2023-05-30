@@ -1,0 +1,4 @@
+{
+  "script": "document.querySelector('[name='btnK']').click()",
+  "args": []
+}

@@ -1,0 +1,6 @@
+{
+  "script": "window.history.forward",
+  "args": [
+    null
+  ]
+}

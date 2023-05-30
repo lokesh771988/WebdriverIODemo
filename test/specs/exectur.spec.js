@@ -1,0 +1,17 @@
+describe("actiomns", ()=>{
+    it("sample1", async function(){
+        browser.url("https://testautomationpractice.blogspot.com/")
+        browser.maximizeWindow()
+        await browser.pause(1000)
+        //console.log(await browser.execute("return document.title"))
+        //console.log(await browser.execute("return document.URL"))
+        //await browser.execute("document.getElementById('APjFqb').value='lokesh gorantla'")
+        //await browser.pause(1000)
+        //await browser.execute("document.querySelector('.gNO89b').click()")
+        await browser.pause(1000)
+        //browser.navigatorTo("https://testautomationpractice.blogspot.com/")
+        await browser.pause(1000)
+        await browser.execute("window.scrollTo(0, document.body.scrollHeight)", null)
+        await browser.pause(2000)
+    })
+})

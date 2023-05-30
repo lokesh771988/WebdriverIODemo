@@ -1,0 +1,42 @@
+{
+  "id": {
+    "sessionId": "155521a8aebdcaa6e83aa8fe6f7a99ae",
+    "elementId": "078CBCF11750CD699E60B016701928C9_element_43",
+    "element-6066-11e4-a52e-4f735466cecf": "078CBCF11750CD699E60B016701928C9_element_43",
+    "selector": "//iframe[@name=\"classFrame\"]",
+    "parent": {
+      "sessionId": "155521a8aebdcaa6e83aa8fe6f7a99ae",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "113.0.5672.127",
+        "chrome": {
+          "chromedriverVersion": "113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912})",
+          "userDataDir": "C:\\Users\\LOKESH~1\\AppData\\Local\\Temp\\scoped_dir5300_237807460"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:60564"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true
+      }
+    },
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}

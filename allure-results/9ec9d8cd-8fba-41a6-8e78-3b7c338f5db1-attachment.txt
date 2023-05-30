@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"radiooptions\"]:nth-child(2)\"}\n  (Session info: chrome=113.0.5672.127)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x003D8893+48451]\n\t(No symbol) [0x0036B8A1]\n\t(No symbol) [0x00275058]\n\t(No symbol) [0x002A0467]\n\t(No symbol) [0x002A069B]\n\t(No symbol) [0x002CDD92]\n\t(No symbol) [0x002BA304]\n\t(No symbol) [0x002CC482]\n\t(No symbol) [0x002BA0B6]\n\t(No symbol) [0x00297E08]\n\t(No symbol) [0x00298F2D]\n\tGetHandleVerifier [0x00638E3A+2540266]\n\tGetHandleVerifier [0x00678959+2801161]\n\tGetHandleVerifier [0x0067295C+2776588]\n\tGetHandleVerifier [0x00462280+612144]\n\t(No symbol) [0x00374F6C]\n\t(No symbol) [0x003711D8]\n\t(No symbol) [0x003712BB]\n\t(No symbol) [0x00364857]\n\tBaseThreadInitThunk [0x751100C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77157B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77157B1E+238]\n"
+}

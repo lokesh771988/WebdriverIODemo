@@ -1,0 +1,6 @@
+{
+  "script": "window.history.back",
+  "args": [
+    null
+  ]
+}
